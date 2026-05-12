@@ -1,5 +1,3 @@
-local Ast = AstLib.Ast
-
 local fenv = getfenv();
 local lune_luau = require("@lune/luau")
 local loadstring = lune_luau.load
